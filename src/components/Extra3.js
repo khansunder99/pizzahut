@@ -115,7 +115,7 @@ const Drinks = [
 export default function Extra1() {
   return (
     <div className="w-full h-screen">
-      <div className="w-full h-screen overflow-scroll bg-[url('https://img.freepik.com/free-photo/design-space-paper-textured-background_53876-42312.jpg')] bg-center bg-cover bg-no-repeat grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-4 p-3 gap-3">
+      <div className="w-full h-screen overflow-scroll bg-[url('https://img.freepik.com/free-photo/design-space-paper-textured-background_53876-42312.jpg')] bg-center bg-cover bg-no-repeat grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-4 p-3 gap-3">
         {Drinks.map((drink, index) => (
           <Card3
             key={index}

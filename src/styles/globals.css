@@ -3,3 +3,12 @@
 @tailwind utilities;
 
 
+/* Assuming you want to remove focus border from input elements */
+input:focus {
+    outline: none; /* or outline: 0; */
+  }
+  
+  /* If you want to remove focus border from all elements */
+  *:focus {
+    outline: none; /* or outline: 0; */
+  }

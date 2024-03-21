@@ -76,8 +76,8 @@ const Sets = [
  
 export default function Extra1() {
   return (
-    <div className="w-full h-screen">
-      <div className="w-full h-screen overflow-scroll bg-[url('https://img.freepik.com/free-photo/design-space-paper-textured-background_53876-42312.jpg')] bg-center bg-cover bg-no-repeat grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 2xl:grid-cols-3 p-3 gap-3">
+    <div className="w-full h-full">
+      <div className="w-full h-full bg-[url('https://img.freepik.com/free-photo/design-space-paper-textured-background_53876-42312.jpg')] bg-center bg-cover bg-no-repeat grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 2xl:grid-cols-3 p-3 gap-3">
         {Sets.map((sets, index) => (
           <Card1
             key={index}
